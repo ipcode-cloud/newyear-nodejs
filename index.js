@@ -84,8 +84,6 @@ async function question0() {
   return handleAnswer(answers.question_0 === '2025');
 }
 
-
-// Run it with top-level await
 console.clear();
 await welcome();
 await askName();
